@@ -95,6 +95,9 @@ function updateCartModal() {
     style: "currency",
     currency: "BRL",
   });
+
+  cartCounter.innerHTML = cart.length;
+
 }
 
 //Função para remover o item do carrinho
